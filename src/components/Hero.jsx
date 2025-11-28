@@ -1,3 +1,6 @@
+import perfilImg from "../assets/images/perfil2.jpg"; 
+
+
 const Hero = () => {
   return (
     <section
@@ -96,6 +99,17 @@ const Hero = () => {
               Instagram &gt;&gt;
             </a>
           </div>
+              {/* Foto de presentación */}
+          <div className="flex justify-center md:justify-end mt-6">
+              <img
+              src={perfilImg}  
+              alt="Foto de Giovanni Ramírez"
+              className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-indigo-500 shadow-lg shadow-indigo-500/30"
+              />
+          </div>
+
+
+
         </div>
       </div>
     </section>

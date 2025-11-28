@@ -4,6 +4,7 @@ import About from "./components/About";
 import WorkExperience from "./components/WorkExperience";
 import FeaturedProjects from "./components/FeaturedProjects";
 import Contact from "./components/Contact";
+import Gallery from "./components/GalleryC.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <About />
         <WorkExperience />
         <FeaturedProjects />
+        <Gallery />
         <Contact />
       </main>
 
