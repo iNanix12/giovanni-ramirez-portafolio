@@ -49,8 +49,21 @@ const Hero = () => {
         </div>
       </div>
 
+          
+
+
+
       {/* Lado derecho */}
       <div className="space-y-4 text-sm text-slate-300">
+
+        <div className="flex justify-center md:justify-end mt-0 md:-mt-6">
+              <img
+              src={perfilImg}  
+              alt="Foto de Giovanni Ramírez"
+              className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-indigo-500 shadow-lg shadow-indigo-500/30"
+              />
+          </div>
+          
         <p>
           Actualmente estudio Ingeniería en Informática en Santiago de Chile y
           trabajo en proyectos de{" "}
@@ -60,6 +73,8 @@ const Hero = () => {
           para casos reales y académicos.
         </p>
 
+        
+
         <p>
           Tecnologías que uso frecuentemente:{" "}
           <span className="font-semibold">
@@ -68,6 +83,8 @@ const Hero = () => {
           </span>{" "}
           además de herramientas para impresión 3D y corte láser.
         </p>
+
+        
 
         <div className="border border-slate-800 rounded-xl p-4">
           <p className="text-slate-400 text-xs uppercase tracking-[0.2em]">
@@ -100,13 +117,7 @@ const Hero = () => {
             </a>
           </div>
               {/* Foto de presentación */}
-          <div className="flex justify-center md:justify-end mt-6">
-              <img
-              src={perfilImg}  
-              alt="Foto de Giovanni Ramírez"
-              className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-indigo-500 shadow-lg shadow-indigo-500/30"
-              />
-          </div>
+          
 
 
 
