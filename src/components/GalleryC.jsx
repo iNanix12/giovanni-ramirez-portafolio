@@ -1,4 +1,5 @@
 import manoRoboticaVideo from "../assets/images/manorobotica.mp4";
+import creaLabApp from "../assets/images/Crealabapp1.mp4";
 
 const gallery = [
   {
@@ -6,6 +7,12 @@ const gallery = [
     video: manoRoboticaVideo,
     description:
       "Prototipo de mano robótica controlada electrónicamente. Diseño, armado y pruebas realizadas por mí.",
+  },
+  {
+    title: "CreaLabb App",
+    video: creaLabApp,
+    description:
+      "Prototipo de App venta archivos para impresiones 3D o grabádo láser.",
   },
   
 ];
@@ -30,13 +37,15 @@ const Gallery = () => {
             )}
 
             {item.video && (
-              <video
-                className="w-full h-56 object-cover"
-                controls
-                loop
-              >
-                <source src={item.video} type="video/mp4" />
-              </video>
+              <div className= "w-full bg-slate-900 flex justify-center items-center">
+                <video
+                  className="w-64 md:h-80 w-auto object-contain"
+                  controls
+                  loop
+                >
+                  <source src={item.video} type="video/mp4" />
+                </video>
+              </div>
             )}
 
             <div className="p-4">
