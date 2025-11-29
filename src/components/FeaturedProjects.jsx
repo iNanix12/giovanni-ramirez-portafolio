@@ -5,7 +5,7 @@ const projects = [
       "Rediseño de un sistema monolítico a una arquitectura de microservicios para una empresa de perfumes ficticia.",
     extra:
       "Incluye API Gateway, registro de servicios, esquema MySQL y documentación alineada a buenas prácticas de arquitectura.",
-    link: "#",
+    link: "#mano-robotica-video",
   },
   {
     title: "CreateLab – E-commerce para impresiones 3D",
@@ -13,7 +13,7 @@ const projects = [
       "Aplicación móvil con Kotlin y backend Xano para gestionar productos, carritos y stock, conectada a un flujo real de impresión 3D.",
     extra:
       "Pensada para que personas sin conocimientos técnicos puedan solicitar y seguir sus pedidos de impresiones personalizadas.",
-    link: "#",
+    link: "#crealab-video",
   },
   {
     title: "3D & AR Lab – Físico + Digital",

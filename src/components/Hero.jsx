@@ -17,13 +17,13 @@ const Hero = () => {
         </h1>
 
         <p className="mt-2 text-lg text-slate-300">
-          Soy <span className="font-semibold">Ingeniero en Informática y maker 3D.</span>
+          Soy <span className="font-semibold"> Estudiante de Ingeniería en Informática y maker 3D.</span>
         </p>
 
         <p className="mt-6 text-slate-300">
-          Un diseñador que <span className="font-semibold">juzga un libro por su portada...</span>
+          Un diseñador que <span className="font-semibold">aprende e investiga de forma autodidacta...</span>
           <br />
-          Porque si la portada no te impresiona, ¿qué más lo hará?
+          Hambre de conocimiento y pasión por crear.
         </p>
 
         <p className="mt-4 text-sm text-slate-400 max-w-md">
@@ -63,7 +63,7 @@ const Hero = () => {
               className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-indigo-500 shadow-lg shadow-indigo-500/30"
               />
           </div>
-          
+
         <p>
           Actualmente estudio Ingeniería en Informática en Santiago de Chile y
           trabajo en proyectos de{" "}

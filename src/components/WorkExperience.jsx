@@ -1,18 +1,18 @@
 const workItems = [
   {
-    title: "Perfulandia SPA",
+    title: "Perfulandia SPA (Escolar)",
     description:
-      "Arquitectura de microservicios para una agencia de viajes: servicios Spring Boot, API Gateway, Eureka, mensajería y base de datos MySQL, diseñada como caso completo.",
+      "Arquitectura de microservicios para una agencia de perfumes: servicios Spring Boot, API Gateway y  base de datos MySQL, diseñada como caso completo.",
     link: "#",
   },
   {
-    title: "Fservices – Reportes de Consumo de Agua",
+    title: "Fservices – Reportes de Consumo de Agua (Escolar)",
     description:
       "Sistema en Oracle PL/SQL para generar reportes fiscales y resúmenes, usando procedimientos almacenados, vistas, roles y seguridad para un escenario de servicios públicos.",
     link: "#",
   },
   {
-    title: "CreateLab – E-commerce e Impresión 3D",
+    title: "CreateLab – E-commerce e Impresión 3D (Escolar)",
     description:
       "App Android en Kotlin conectada a backend Xano para gestionar productos, carritos y pedidos, integrada con mi propio flujo de impresión 3D y corte láser.",
     link: "#",

@@ -7,12 +7,14 @@ const gallery = [
     video: manoRoboticaVideo,
     description:
       "Prototipo de mano robótica controlada electrónicamente. Diseño, armado y pruebas realizadas por mí.",
+    id:"mano-robotica-video",
   },
   {
     title: "CreaLabb App",
     video: creaLabApp,
     description:
       "Prototipo de App venta archivos para impresiones 3D o grabádo láser.",
+    id:"crealab-video",
   },
   
 ];
@@ -26,6 +28,7 @@ const Gallery = () => {
         {gallery.map((item, idx) => (
           <div
             key={idx}
+            id={item.id}
             className="bg-slate-900/40 border border-slate-800 rounded-xl overflow-hidden"
           >
             {item.img && (
